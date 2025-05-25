@@ -5,18 +5,18 @@
       class="flex items-center justify-between p-4 lg:border-b-2 border-ui-light-gray"
     >
       <div class="relative flex gap-4 items-center justify-between">
-        <button class="mt-0.5 xl:hidden" @click="isMenuOpen = true">
+        <button class="mt-0.5 lg:hidden" @click="isMenuOpen = true">
           <img src="../assets/images/icon-menu.svg" alt="open menu" />
         </button>
         <img src="../assets/images/logo.svg" alt="shop logo" />
         <nav
-          class="fixed xl:static top-0 h-dvh xl:h-fit min-w-fit w-2/3 xl:w-fit p-4 bg-white font-bold text-xl xl:text-sm text-ui-dark-blue xl:text-ui-dark-blue/50 transition-[left] duration-300"
+          class="fixed lg:static top-0 h-dvh lg:h-fit min-w-fit w-2/3 lg:w-fit p-4 bg-white font-bold text-xl lg:text-sm text-ui-dark-blue lg:text-ui-dark-blue/50 transition-[left] duration-300"
           :class="[isMenuOpen ? 'left-0' : '-left-full']"
         >
-          <button @click="isMenuOpen = false" class="mb-10 xl:hidden">
+          <button @click="isMenuOpen = false" class="mb-10 lg:hidden">
             <img src="../assets/images/icon-close.svg" alt="menu close btn" />
           </button>
-          <ul class="flex flex-col xl:flex-row gap-4">
+          <ul class="flex flex-col lg:flex-row gap-4">
             <li>
               <a href="#"> Collections </a>
             </li>
