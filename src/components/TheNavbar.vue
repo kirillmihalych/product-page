@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative z-50 lg:z-0">
     <TheOverlay :is-menu-open="isMenuOpen" />
     <header
       class="flex items-center justify-between p-4 lg:border-b-2 border-ui-light-gray"
